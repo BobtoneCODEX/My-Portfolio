@@ -1,387 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8"/>
-   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-   <title>Eziwho Bobmanuel — Portfolio</title>
-   <link rel="stylesheet" href="style.css">
-
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eziwho Bobmanuel | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-  <!-- Header -->
-  <header>
-    <div class="container nav-inner">
-      <a class="brand" href="#">BobtoneCodex</a>
-
-      <nav>
-
-
-        <div class="nav-links" id="nav-links">
-           <a href="#home" class="nav-link active">Home</a>
-           <a href="#about" class="nav-link">About</a>
-           <a href="#skills" class="nav-link">Skills</a>
-           <a href="#projects" class="nav-link">Projects</a>
-           <a href="#contact" class="nav-link">Contact</a>
+    <nav>
+        <div class="nav-links">
+            <a href="#">
+                <img src="assets/home.png" alt="Home" class="nav-icon1">
+            </a>
+            <a href="#">
+                <img src="assets/Twitter.png" alt="Twitter" class="nav-icon2">
+            </a>
+            <a href="#">
+                <img src="assets/Git.png" alt="GitHub" class="nav-icon">
+            </a>
         </div>
-      </nav>
-    
-    </div>
-    <!-- mobile menu (hidden by default, toggled) -->
-   
-    
-  </header>
+             <a href="#" class="blog-btn">Resume</a>
+    </nav>
 
-  <!-- Hero -->
-  <main>
-    <section id="home" class="hero container">
-      <div class="hero-row" style="width:100%">
-        <div style="display:flex;gap:20px;flex-wrap:wrap;align-items:center;justify-content:space-between">
-          <div class="hero-left fade-in">
- <div class="hero-right fade-in" style="min-width:280px"> 
-  <div style="position:relative">
-    <div class="avatar-circle" aria-hidden="true">
-      <img src="assets/profile.jpg" alt="Profile Image" style="
-        width:210px;
-        height:210px;
-        border-radius:50%;
-        object-fit:cover;
-      ">
-    </div>
-  </div>
-</div>
-
-            <h1 class="h1">Hi, I'm <span class="accent">Eziwho Bobmanuel</span></h1>
-            <h2 class="h2 muted">Web & Flutter Developer</h2>
-            <p class="lead muted">I create beautiful, functional websites and mobile applications with modern technologies.</p>
-            <div class="cta-group">
-              <a href="#projects" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-outline">Contact Me</a>
-            </div>
-          </div>
-              
-    </section>
-
-    <!-- About -->
-    <section id="about" style="background:#0b0210;">
-
-      <div class="container">
-        <h2 class="section-title fade-in">About Me</h2>
-        <div class="about-row fade-in" style="margin-top:18px">
-          <div class="about-photo" aria-hidden="true">
-            <img src="assets/profile2.jpg" alt="Profile Image" style="
-              width:240px;
-              height:240px;
-              border-radius:12px;
-              object-fit:cover;
-            ">
-          </div>
-
-          <div class="about-card">
-            <h3 style="margin:0;font-size:20px">Who am I?</h3>
-            <p class="muted" style="margin:0" >
-              Hey there! 👋 I’m Eziwho Bobmanuel, a web and mobile developer who loves turning ideas into digital magic. I spend my days crafting beautiful websites and smooth mobile apps using HTML, CSS, JavaScript, and Flutter—all with a touch of creativity <br>
-
-              I’m here to create, innovate, and solve problems while having fun along the way. If you love tech that’s smart, stylish, and a little playful, we’ll get along just fine.
-            </p>
-
-            <div style="margin-top:12px">
-              <a class="download-btn" href="#" onclick="return false">Download CV <i class="fas fa-download" style="margin-left:8px"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" style="background:var(--bg)">
-      <div class="container">
-        <h2 class="section-title fade-in">My Skills</h2>
-
-        <div class="skills-grid" style="margin-top:20px">
-          <div class="fade-in">
-            <h3 style="margin-top:0">Web Development</h3>
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">HTML & CSS</span><span style="color:var(--accent)">95%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:95%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">JavaScript</span><span style="color:var(--accent)">85%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:85%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">React/Next.js</span><span style="color:var(--accent)">75%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:75%"></div></div>
-            </div>
-          </div>
-
-          <div class="fade-in">
-            <h3 style="margin-top:0">Mobile Development</h3>
-
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">Flutter</span><span style="color:var(--accent)">90%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:90%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">Dart</span><span style="color:var(--accent)">88%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:88%"></div></div>
-            </div>
-
-            <div class="skill">
-              <div style="display:flex;justify-content:space-between"><span style="font-weight:600">Firebase</span><span style="color:var(--accent)">80%</span></div>
-              <div class="bar-bg" style="margin-top:8px"><div class="bar-fill" style="width:80%"></div></div>
-            </div>
-          </div>
+    <main class="hero">
+        <div class="avatar-container">
+            <img src="assets/profile2.jpg" >
         </div>
 
-        <div style="margin-top:28px" class="fade-in">
-          <h3 style="text-align:center;margin-bottom:12px">Tools & Technologies</h3>
-          <div class="tools">
-            <div class="tool-card"><i class="fab fa-html5" style="font-size:28px;color:#ef6c00;margin-bottom:8px"></i><div>HTML5</div></div>
-            <div class="tool-card"><i class="fab fa-css3-alt" style="font-size:28px;color:#2563eb;margin-bottom:8px"></i><div>CSS3</div></div>
-            <div class="tool-card"><i class="fab fa-js" style="font-size:28px;color:#f59e0b;margin-bottom:8px"></i><div>JavaScript</div></div>
-            <div class="tool-card"><i class="fab fa-git-alt" style="font-size:28px;color:#ef4444;margin-bottom:8px"></i><div>Git</div></div>
-            <div class="tool-card"><img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter" style="height:36px;margin-bottom:8px"><div>Flutter</div></div>
-            <div class="tool-card"><i class="fab fa-figma" style="font-size:28px;color:#a78bfa;margin-bottom:8px"></i><div>Figma</div></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" style="background:#0b0210">
-      <div class="container">
-        <h2 class="section-title fade-in">My Projects</h2>
-        <p style="text-align:center;color:#6b7280;margin-top:8px" class="fade-in">Here are some of my recent projects. Click on each to learn more.</p>
-
-        <div class="projects-grid fade-in" style="margin-top:22px">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#e6f2ff">
-              <i class="fas fa-mobile-alt" style="font-size:44px;color:#2563eb"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">E-Commerce App</h3>
-              <p class="muted" style="margin:0 0 12px">A Flutter mobile application with Firebase backend for online shopping.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#eff6ff;color:#1e40af;padding:6px 10px;border-radius:999px;font-size:13px">Flutter</span>
-                <span style="background:#eff6ff;color:#1e40af;padding:6px 10px;border-radius:999px;font-size:13px">Firebase</span>
-                <span style="background:#eff6ff;color:#1e40af;padding:6px 10px;border-radius:999px;font-size:13px">Dart</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#ecfdf5">
-              <i class="fas fa-laptop-code" style="font-size:44px;color:#10b981"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">Portfolio Website</h3>
-              <p class="muted" style="margin:0 0 12px">A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#ecfdf5;color:#065f46;padding:6px 10px;border-radius:999px;font-size:13px">HTML</span>
-                <span style="background:#ecfdf5;color:#065f46;padding:6px 10px;border-radius:999px;font-size:13px">CSS</span>
-                <span style="background:#ecfdf5;color:#065f46;padding:6px 10px;border-radius:999px;font-size:13px">JavaScript</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#f5f3ff">
-              <i class="fas fa-chart-line" style="font-size:44px;color:#7c3aed"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">Finance Dashboard</h3>
-              <p class="muted" style="margin:0 0 12px">A web-based financial dashboard with real-time data visualization.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#faf5ff;color:#6d28d9;padding:6px 10px;border-radius:999px;font-size:13px">React</span>
-                <span style="background:#faf5ff;color:#6d28d9;padding:6px 10px;border-radius:999px;font-size:13px">Chart.js</span>
-                <span style="background:#faf5ff;color:#6d28d9;padding:6px 10px;border-radius:999px;font-size:13px">API</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-
-          <!-- Project 4 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#fff7ed">
-              <i class="fas fa-calendar-alt" style="font-size:44px;color:#f59e0b"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">Event Management App</h3>
-              <p class="muted" style="margin:0 0 12px">A Flutter application for organizing and managing events.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#fff7ed;color:#92400e;padding:6px 10px;border-radius:999px;font-size:13px">Flutter</span>
-                <span style="background:#fff7ed;color:#92400e;padding:6px 10px;border-radius:999px;font-size:13px">Firebase</span>
-                <span style="background:#fff7ed;color:#92400e;padding:6px 10px;border-radius:999px;font-size:13px">Google Maps</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-
-          <!-- Project 5 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#fff1f2">
-              <i class="fas fa-shopping-cart" style="font-size:44px;color:#ef4444"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">Online Store</h3>
-              <p class="muted" style="margin:0 0 12px">A responsive e-commerce website with product catalog and cart.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#fff1f2;color:#9f1239;padding:6px 10px;border-radius:999px;font-size:13px">HTML</span>
-                <span style="background:#fff1f2;color:#9f1239;padding:6px 10px;border-radius:999px;font-size:13px">CSS</span>
-                <span style="background:#fff1f2;color:#9f1239;padding:6px 10px;border-radius:999px;font-size:13px">JavaScript</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-
-          <!-- Project 6 -->
-          <div class="project-card">
-            <div class="project-hero" style="background:#eef2ff">
-              <i class="fas fa-newspaper" style="font-size:44px;color:#4f46e5"></i>
-            </div>
-            <div class="project-body">
-              <h3 style="margin:0 0 8px 0">News Reader App</h3>
-              <p class="muted" style="margin:0 0 12px">A mobile application for reading news from various sources.</p>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
-                <span style="background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px">Flutter</span>
-                <span style="background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px">News API</span>
-                <span style="background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px">Bloc</span>
-              </div>
-              <a href="#" style="color:var(--accent);font-weight:700">View Project →</a>
-            </div>
-          </div>
-        </div>
-
-        <div style="text-align:center;margin-top:20px" class="fade-in">
-          <a href="#" style="display:inline-block;background:var(--accent);color:white;padding:12px 22px;border-radius:12px;font-weight:700">View All Projects <i class="fas fa-arrow-right" style="margin-left:8px"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" style="background:var(--bg)">
-      <div class="container">
-        <h2 class="section-title fade-in">Get In Touch</h2>
-        <p style="text-align:center;color:#6b7280;margin-top:6px" class="fade-in">Have a project in mind or want to discuss opportunities? Feel free to reach out!</p>
-
-        <div class="contact-row" style="margin-top:20px">
-          <form class="contact-form fade-in" onsubmit="handleContact(event)">
-            <div class="field"><label for="name">Your Name</label><input id="name" type="text" placeholder="John Doe" required></div>
-            <div class="field"><label for="email">Email Address</label><input id="email" type="email" placeholder="john@example.com" required></div>
-            <div class="field"><label for="subject">Subject</label><input id="subject" type="text" placeholder="Project Inquiry"></div>
-            <div class="field"><label for="message">Message</label><textarea id="message" rows="5" placeholder="Your message here..." required></textarea></div>
-            <button type="submit" class="btn btn-primary" style="width:100%">Send Message <i class="fas fa-paper-plane" style="margin-left:8px"></i></button>
-          </form>
-
-          <aside class="contact-card fade-in">
-            <h3 style="margin-top:0">Contact Information</h3>
-            <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px">
-              <div style="display:flex;gap:12px;align-items:start">
-                <div style="width:44px;height:44;border-radius:10px;background:#ecf8ff;display:flex;align-items:center;justify-content:center;color:var(--accent)"><i class="fas fa-map-marker-alt"></i></div>
-                <div><div style="font-weight:700">Location</div><div class="muted">Port Harcourt, Nigeria</div></div>
-              </div>
-
-              <div style="display:flex;gap:12px;align-items:start">
-                <div style="width:44px;height:44;border-radius:10px;background:#ecf8ff;display:flex;align-items:center;justify-content:center;color:var(--accent)"><i class="fas fa-envelope"></i></div>
-                <div><div style="font-weight:700">Email</div><div class="muted">bobmanueleziwho@gmail.com</div></div>
-              </div>
-
-              <div style="display:flex;gap:12px;align-items:start">
-                <div style="width:44px;height:44;border-radius:10px;background:#ecf8ff;display:flex;align-items:center;justify-content:center;color:var(--accent)"><i class="fas fa-phone-alt"></i></div>
-                <div><div style="font-weight:700">Phone</div><div class="muted">+1 (123) 456-7890</div></div>
-              </div>
-
-              <div style="display:flex;gap:12px;align-items:start">
-                <div style="width:44px;height:44;border-radius:10px;background:#ecf8ff;display:flex;align-items:center;justify-content:center;color:var(--accent)"><i class="fas fa-clock"></i></div>
-                <div><div style="font-weight:700">Working Hours</div><div class="muted">Mon–Fri: 9AM — 5PM</div></div>
-              </div>
-            </div>
-
-            <div style="margin-top:18px">
-              <h4 style="margin:0 0 8px 0">Follow Me</h4>
-              <div class="socials">
-                <a href="https://github.com/BobtoneCodex"  target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/Eziwho Bobmanuel Hanacho/" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.twitter.com/BEziwho58059/" target="_blank" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/BobtoneCodex/" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@bobcodex1" target="_blank" aria-label="tiktok"><i class="fab fa-tiktok"></i></a>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container footer-inner">
-      <div>
-        <a class="brand" href="#">Portfolio</a>
-        <div style="color:#c7d2fe;margin-top:8px">Web & Flutter Developer</div>
-      </div>
-
-      <div style="display:flex;gap:28px;flex-wrap:wrap">
-        <div>
-          <div style="font-weight:700;margin-bottom:8px">Service</div>
-          <div style="display:flex;flex-direction:column;gap:6px">
-            <a href="#projects" style="color:#cbd5e1">App dev </a>
-            <a href="#contact" style="color:#cbd5e1">Web dev</a>
-            <a href="#home" style="color:#cbd5e1">uiux desing</a>
-            <a href="#about" style="color:#cbd5e1">Video editing</a>
-            <a href="#skills" style="color:#cbd5e1">Graphic desing</a>
-          </div>
-        </div>
-
+        <h1> I'm Eziwho Bobmanuel.<br>Software Engineer</h1>
         
+        <p>
+            Developer crafting clean, modern, and user-focused digital experiences.
+        </p>
+
+        <div class="cta-group">
+            <a href="#" class="hire-btn">Hire Me!</a>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                My Project
+            </div>
         </div>
+    </main>
 
-        <div>
-          <div style="font-weight:700;margin-bottom:8px">Contact</div>
-          <div style="color:#cbd5e1">
-            <div>bobmanueleziwho@gmail.com</div>
-            <div>081-0779-4138</div>
-            <div>080-6923-7874</div>
-
-            <div>Port Harcourt, Nigeria</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-<div style="border-top:1px solid rgba(255,255,255,0.04);margin-top:20px;padding-top:18px">
-  <div class="container" style="display:flex;justify-content:center;align-items:center;flex-wrap:wrap">
-    
-    <div style="display:flex;gap:20px;justify-content:center;align-items:center">
-      <a href="https://github.com/BobtoneCodex"  target="_blank" style="color:#cbd5e1;font-size:26px;"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/Eziwho Bobmanuel Hanacho/" target="_blank" style="color:#cbd5e1;font-size:26px;"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.twitter.com/BEziwho58059/" target="_blank" style="color:#cbd5e1;font-size:26px;"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/BobtoneCodex/" target="_blank" style="color:#cbd5e1;font-size:26px;"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.tiktok.com/@bobcodex1" target="_blank" style="color:#cbd5e1;font-size:26px;"><i class="fab fa-tiktok"></i></a>
-    </div>
-
-  </div>
-</div>
-
-    </div>
-  </footer>
 
   
+<div class="about">
+      <h2  class="about-title">About<span>    &lt;/Bobmanuel&gt;</span></h2>
 
-<script src="js/script.js"  defer></script>
+      <p class="about-text">
+    Hi, I’m <strong>Bobmanuel</strong> 👋 <br />
+    I’m a passionate developer who loves building clean, modern websites
+    and mobile apps.using
+    technologies like Next.js, CSS, JavaScript, Flutter, PHP.
+  </p>
 
+  <p class="about-text">
+    I  create
+    content to inspire other developers. I’m always learning and improving
+    my skills every day.
+  </p>
+
+
+
+  <p class="about-text">
+      I am motivated by problem-solving and enjoy turning  ideas into simple, effective digital solutions.  I am open to collaboration, feedback, and opportunities.
+  </p>
+</div>
+
+
+
+
+
+
+
+<div class="polaroid-container">
+  <div class="polaroid left">
+    <img src="assets/profile.jpg" alt="profile">
+    <p>@ikwerre-dev</p>
+  </div>
+
+  <div class="polaroid right">
+    <img src="assets/profile3.jpg" alt="profile">
+    <p>@BobtoneCodex</p>
+  </div>
+</div>
+
+
+
+
+<section class="stack-section">
+  <div class="stack-container">
+    <h2 class="stack-title"><span>&lt;/</span>My Stack<span>&gt;</span></h2>
+    
+    <div class="stack-grid">
+      <div class="stack-card" style="--i: 1">
+        <div class="stack-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+        </div>
+        <span class="stack-name">PHP</span>
+      </div>
+
+      <div class="stack-card" style="--i: 2">
+        <div class="stack-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        </div>
+        <span class="stack-name">Node.js</span>
+      </div>
+
+      <div class="stack-card" style="--i: 3">
+        <div class="stack-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+        </div>
+        <span class="stack-name">Flutter</span>
+      </div>
+
+      <div class="stack-card" style="--i: 4">
+        <div class="stack-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        </div>
+        <span class="stack-name">React JS</span>
+      </div>
+
+      <div class="stack-card" style="--i: 5">
+        <div class="stack-icon nextjs-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js">
+        </div>
+        <span class="stack-name">Next.js</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <script src="script.js"></script>  
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   <div class="stack">  
+<div class="image-con">
+
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg" alt="PHP" width="30" >
+
+  
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" width="30">
+
+  
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/flutter.svg" alt="Flutter" width="30">
+
+  
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" width="30">
+
+  
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React.js" width="30">
+
+
+               <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nextdotjs.svg" alt="Next.js" width="30">
+</div>
+  </div>
+ -->
