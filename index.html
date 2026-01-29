@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eziwho Bobmanuel | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.replace();
+</script>
+
+
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav>
         <div class="nav-links">
-            <a href="#">
-                <img src="assets/home.png" alt="Home" class="nav-icon1">
-            </a>
-            <a href="#">
-                <img src="assets/Twitter.png" alt="Twitter" class="nav-icon2">
-            </a>
-            <a href="#">
-                <img src="assets/Git.png" alt="GitHub" class="nav-icon">
-            </a>
+          <a href="index.html" title="Home">
+             <img src="assets/home.png" alt="Home" class="nav-icon1">
+          </a>
+
+          <a href="https://x.com/" target="_blank" title="X">
+              <img src="assets/Twitter.png" alt="X" class="nav-icon2">
+          </a>
+
+          <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+              <img src="assets/Git.png" alt="GitHub" class="nav-icon">
+          </a>  
         </div>
-             <a href="#" class="blog-btn">Resume</a>
+            <a href="#" class="blog-btn">Resume</a>
     </nav>
 
     <main class="hero">
@@ -133,7 +146,148 @@
 </section>
 
 
-   <script src="script.js"></script>  
+<section id="projects" class="projects-section reveal">
+  <h2 class="section-title">Projects <span>&lt;/Works&gt;</span></h2>
+
+  <div class="project-grid">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <div class="project-img" style="background-image: url('assets/pro1.png');"></div>
+      <div class="project-info">
+        <h3>Foddie-Express</h3>
+        <p>A full-stack React and Node.js application For Ordering Food.</p>
+        <div class="project-links">
+          <a href="#"><i data-lucide="external-link"></i> View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <div class="project-img" style="background-image: url('assets/placeholder.png');"></div>
+      <div class="project-info">
+        <h3>Task Management App</h3>
+        <p>Built with Flutter for cross-platform efficiency and clean UI.</p>
+        <div class="project-links">
+          <a href="#"><i data-lucide="external-link"></i> View Project</a>
+        </div>
+      </div>
+    </div>
+
+   
+
+
+     <!-- PROJECT 3 -->
+    <div class="project-card">
+      <div class="project-img" style="background-image: url('assets/placeholder.png');"></div>
+      <div class="project-info">
+        <h3>Task Management App</h3>
+        <p>Built with Flutter for cross-platform efficiency and clean UI.</p>
+        <div class="project-links">
+          <a href="#"><i data-lucide="external-link"></i> View Project</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <!-- PROJECT 4 -->
+    <div class="project-card">
+      <div class="project-img" style="background-image: url('assets/placeholder.png');"></div>
+      <div class="project-info">
+        <h3>Task Management App</h3>
+        <p>Built with Flutter for cross-platform efficiency and clean UI.</p>
+        <div class="project-links">
+          <a href="#"><i data-lucide="external-link"></i> View Project</a>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- HIDDEN PROJECTS -->
+    <div class="project-card hidden-project">
+      <div class="project-img" style="background-image: url('assets/placeholder.png');"></div>
+      <div class="project-info">
+        <h3>Trust Coin App</h3>
+        <p>Crypto-based trust and transaction application.</p>
+        <div class="project-links">
+                    <a href="#"><i data-lucide="external-link"></i> View Project</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card hidden-project">
+      <div class="project-img" style="background-image: url('assets/placeholder.png');"></div>
+      <div class="project-info">
+        <h3>Chat Application</h3>
+        <p>Real-time messaging app with authentication.</p>
+        <div class="project-links">
+      <a href="#"><i data-lucide="external-link"></i> View Project</a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- VIEW MORE BUTTON (ADD THIS) -->
+  <button class="view-more-btn">View More Projects</button>
+
+</section>
+  </div>
+</section>
+
+
+
+
+<!-- GET IN TOUCH -->
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Get In Touch </h2>
+
+  <div class="contact-container">
+
+    <!-- RIGHT FORM -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>Copyright © 2026 Eziwho Bobmanuel.</p>
+
+  <div class="footer-icons">
+    <a href="#" aria-label="X (Twitter)">
+  <i class="fa-brands fa-x-twitter"></i>
+</a>
+    <a href="#" aria-label="Instagram">
+      <i data-lucide="instagram"></i>
+    </a>
+    <a href="#" aria-label="LinkedIn">
+      <i data-lucide="linkedin"></i>
+    </a>
+    <a href="mailto:youremail@gmail.com" aria-label="Gmail">
+      <i data-lucide="mail"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+</script>
+
 </body>
 </html>
 
@@ -304,25 +458,3 @@
 
 
 
-<!--   <div class="stack">  
-<div class="image-con">
-
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg" alt="PHP" width="30" >
-
-  
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js" width="30">
-
-  
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/flutter.svg" alt="Flutter" width="30">
-
-  
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" width="30">
-
-  
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React.js" width="30">
-
-
-               <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nextdotjs.svg" alt="Next.js" width="30">
-</div>
-  </div>
- -->
