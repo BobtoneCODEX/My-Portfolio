@@ -533,6 +533,8 @@
   background: #ffffff;
   color: #000000;
   padding: 4rem 1.5rem;
+
+
 }
 
 .contact-section .section-title {
@@ -600,14 +602,11 @@
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 1768px ) {
   .contact-container {
     grid-template-columns: 1fr;
   }
 }
-
-
-
 
 
 .footer {
