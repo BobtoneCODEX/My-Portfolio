@@ -37,7 +37,7 @@
         /* 2. Navigation Styling */
    nav {
   position: fixed;
-  top: 20px;
+  top: 10px;
   display: flex;
   align-items: center;
   padding: 8px 8px 8px 0px;
